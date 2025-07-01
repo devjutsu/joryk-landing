@@ -1,9 +1,14 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-950 text-white px-4 py-8">
+    <main className="min-h-screen text-white px-4 py-8">
       {/* Hero */}
       <section className="text-center max-w-2xl mx-auto py-16">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4">Жорик — твой помощник по калориям 🐱</h1>
+        <div className="flex justify-center items-center mb-4">
+          <Image src="/cat.png" alt="Жорик" width={100} height={100} />
+        </div>
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4">Жорик — твой помощник по калориям</h1>
         <p className="text-lg sm:text-xl text-gray-300 mb-8">
           Просто отправь фото еды — и получи точный разбор!
         </p>
@@ -13,7 +18,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl text-lg font-medium transition"
         >
-          Запустить бота в Telegram
+          Открыть бота в Telegram
         </a>
       </section>
 
