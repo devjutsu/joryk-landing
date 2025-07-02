@@ -41,7 +41,7 @@ export default function RootLayout({
       >
         {children}
         <footer className="text-center py-8 text-sm text-gray-400 bg-sky-800/30">
-          © 2025 Жорик. <br className="hidden md:inline" />
+          © 2025 Жорик. Забота, в которую можно вникнуть.<br className="hidden md:inline" />
           <div className="mt-4 flex justify-center items-center space-x-6">
         <a href="https://t.me/joryk_livebot" title="Жорик бот" className="hover:opacity-80">
           <FaRobot size={24} />
